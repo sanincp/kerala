@@ -1,0 +1,10 @@
+$(document).ready(function(){
+    $("#gallery").click(function(){
+      $("#galleryPage1").show();
+      $("#homePage").hide();
+    });
+    $(".back-btn").click(function(){
+      $("#homePage").show();
+      $("#galleryPage1").hide();
+    });
+  });
